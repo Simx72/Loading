@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editable</title>
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/bootstrap/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="/js/parseurl.js"></script>
+</head>
+
+<body>
+    <h1 id="p">Editable</h1>
+    <div class="container">
+        <div class="progress">
+            <div id="loader" class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <div class="sp-between">
+            <button class="btn d-inline mt-3 btn-change-color btn-success">success</button>
+            <button class="btn d-inline mt-3 btn-change-color btn-primary">primary</button>
+            <button class="btn d-inline mt-3 btn-change-color btn-secondary">secondary</button>
+            <button class="btn d-inline mt-3 btn-change-color btn-info">info</button>
+            <button class="btn d-inline mt-3 btn-change-color btn-danger">danger</button>
+            <button class="btn d-inline mt-3 btn-change-color btn-warning">warning</button>
+        </div>
+
+        <div class="sp-around mt-3 alert alert-primary">
+            <a href="/show.html?end=50&color=primary" id="link-g"></a>
+        </div>
+    </div>
+    <script src="/js/edit.js"></script>
+</body>
+
+</html>
